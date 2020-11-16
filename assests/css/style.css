@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat:no-repeat, no-repeat;
+    background-position:-80% 45%, 150% -40%;
+    background-size:70%, 70%;
+    font-family: 'Kumbh  Sans', sans-serif;
+    font-size:18px;
+    background-color:hsl(185, 75%, 39%);
+    height:10vh;
+    width:1080px;
+    scroll-behavior: auto;
+}
+
+.container{
+    background-color:white;
+    width:32%;
+    height:335px;
+    margin-top:15%;
+    margin-left:50%;
+
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+
+.name{
+    font-weight: 700;
+}
+
+
+.person-container{
+    border-top-right-radius:20px;
+    border-top-left-radius: 20px;
+    background-image: url(../images/bg-pattern-card.svg);
+    text-align: center;
+    height:150px;;
+}
+.person{
+    border-radius: 50%;
+    color:white;
+    border:5px solid white;
+    outline: none;
+    justify-content: center;
+    margin-top:25%;
+}
+
+.info{
+    text-align: center;
+    margin-top:3em;
+
+}
+.info_container{
+    display: flex;
+    margin-top:0px;
+    justify-content: space-evenly;
+   
+}
+.colorlight{
+    color:hsl(0, 0%, 59%);
+}
+
+hr{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.info-1{
+    float:left;
+    margin-right:0px;
+}
+.london{
+    margin-top:10px;
+    font-size:14px;
+    color:hsl(0, 0%, 59%);
+}
+.small{
+    margin-top:2px;
+    font-size:8px;
+    letter-spacing: 3px;
+}
+
+.likes{
+    font-weight: 700;
+}
+
+@media (max-width:344px){
+    body{
+        width:100%;
+        background-size:60%, 70%;
+        background-position:-20% 50%, 130% -500%;
+        background-color:hsl(185, 75%, 39%);
+    }
+    .person{
+        margin-top:35%;
+    }
+    .container{
+    
+        width:80%;
+        margin-top:30%;
+        margin-left:2em;
+        
+    }
+ 
+}
